@@ -8,7 +8,7 @@ export default async (req, res) => {
         return 1;
       }
 
-      return currentViews + ;
+      return currentViews + 1;
     });
 
     return res.status(200).json({
